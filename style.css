@@ -1,0 +1,37 @@
+html{
+    background-color:beige;
+}
+
+.navbar{
+    background-color:antiquewhite;
+    overflow: hidden;
+}
+
+.navbar a.misc_button{
+    float: right;
+    text-align: center;
+    padding:14px 16px;
+    font-size: 17px;
+    color:darkslategray
+}
+
+.navbar a.home_page{
+    float: left;
+    
+}
+
+.mainpic{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered_name{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightblue;
+    opacity: 70%;
+    color: white
+}
+
