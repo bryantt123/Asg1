@@ -1,9 +1,9 @@
 html{
-    background-color:beige;
+    background-color:black;
 }
 
 .navbar{
-    background-color:antiquewhite;
+    background-color:black;
     overflow: hidden;
 }
 
@@ -11,8 +11,8 @@ html{
     float: right;
     text-align: center;
     padding:14px 16px;
-    font-size: 17px;
-    color:darkslategray
+    font-size: 20px;
+    color:white
 }
 
 .navbar a.home_page{
@@ -25,6 +25,7 @@ html{
     text-align: center;
     color: white;
 }
+
 .centered_name{
     position: absolute;
     top: 43%;
@@ -35,3 +36,85 @@ html{
     color: white
 }
 
+.group_members{
+    width: 750px;
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+    background-color: skyblue;
+    border-radius: 5px;
+    border-color: lightblue;
+    margin-top: 15px;
+}
+
+.h2{
+    border-style: hidden;
+    background-color:#6F8FAF;
+    width: 100px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.group_members_row{
+    display: flex;
+}
+
+.group_members_row img{
+    border-radius: 50%;
+}
+
+.member_column{
+    flex: 19%;
+    padding: 5px;
+}
+
+.mv_container{
+    border-style: hidden;
+    text-align: center;
+    background-color: lightskyblue;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.twitter_preview{
+    position: relative;
+    border-style: hidden;
+    text-align: center;
+    background-color: lightskyblue;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.fa{
+    padding:10px;
+    font-size:50px;
+    text-align:center;
+    text-decoration:none;
+    border-radius:50%;
+    position: relative;
+    bottom: 10px;
+}
+
+.fa-twitter{
+    background:#55ACEE;
+    color:white;
+}
+
+.fa-instagram{
+    background:#833Ab4;
+    color:white;
+}
+
+.fa-youtube{
+    background:#FD1d1d;
+    color:white;
+}
+
+.copyrights{
+    color: white;
+}
