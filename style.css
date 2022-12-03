@@ -1,25 +1,61 @@
 html{
-    background-color:black;
+    background-color:white;
+    font-family: Helvetica;
 }
 
-.navbar{
-    background-color:black;
-    overflow: hidden;
+@font-face{
+    font-family: Genty;
+    src: url(GentyDemo-Regular.otf);
 }
 
-.navbar a.misc_button{
-    float: right;
-    text-align: center;
-    padding:14px 16px;
-    font-size: 20px;
-    color:white
+.sidenavbar{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color: whitesmoke;
+    overflow-x:hidden;
+    padding-top:60px;
+    transition: 0.5s;
 }
 
-.navbar a.home_page{
-    float: left;
-    
+.sidenavbar a{
+    padding: 8px 8px 8px 32px;
+    text-decoration:none;
+    font-size:25px;
+    color:#818181;
+    display:block;
+    transition:0.3s;
 }
 
+.sidenavbar .closebutton{
+    position:absolute;
+    top:0;
+    right:25px;
+    font-size:36px;
+    margin-left:50px;
+}
+
+.openbutton{
+    font-size:20px;
+    cursor:pointer;
+    background-color:#111;
+    color:white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbutton:hover{
+    background-color:#444;
+}
+
+#openbtn{
+    padding: 10px;
+}
+
+/* main page */
 .mainpic{
     position: relative;
     text-align: center;
@@ -31,28 +67,22 @@ html{
     top: 43%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: lightblue;
-    opacity: 70%;
-    color: white
+    width: 100%;
+    opacity: 60%;
 }
 
 .group_members{
-    width: 750px;
+    width: 1000px;
     margin: auto;
     text-align: center;
-    border-style: solid;
-    background-color: skyblue;
-    border-radius: 5px;
-    border-color: lightblue;
-    margin-top: 15px;
 }
 
-.h2{
-    border-style: hidden;
-    background-color:#6F8FAF;
-    width: 100px;
-    margin: auto;
-    border-radius: 5px;
+.h1{
+    margin-top: 20px;
+    font-family: Genty;
+    color: #174098;
+    font-size: 50px;
+    text-align: center;
 }
 
 .group_members_row{
@@ -60,7 +90,7 @@ html{
 }
 
 .group_members_row img{
-    border-radius: 50%;
+    border-radius: 5px;
 }
 
 .member_column{
@@ -68,26 +98,21 @@ html{
     padding: 5px;
 }
 
+h3{
+    color: #174098;
+}
+
 .mv_container{
-    border-style: hidden;
     text-align: center;
-    background-color: lightskyblue;
-    float: left;
-    margin-left: 50px;
-    margin-top: 50px;
-    border-radius: 5px;
+    margin:auto;
     position: relative;
 }
 
 .twitter_preview{
+    margin-top:20px;
     position: relative;
-    border-style: hidden;
     text-align: center;
-    background-color: lightskyblue;
-    float: right;
-    margin-right: 50px;
-    margin-top: 50px;
-    border-radius: 5px;
+    margin: auto;
 }
 
 .fa{
@@ -116,5 +141,124 @@ html{
 }
 
 .copyrights{
-    color: white;
+    color: black;
+}
+
+/* about page */
+.about_container{
+    text-align: center;
+    margin:auto;
+    position: relative;
+}
+
+.h2{
+    font-family:'Genty';
+    color:#174098;
+    text-align: center;
+    font-size: 38px;
+}
+
+.members_container{
+    overflow: auto;
+    width: 50%;
+    margin: auto;
+}
+
+.members_container p{
+    font-size: 19px;
+    text-align: left;
+    color:#174098;
+    float: left;
+    margin-left: 17%;
+}
+
+.member_image{
+    float: left;
+    width: 40%;
+}
+
+/* discography page */
+.discography_header{
+    font-family: Genty;
+    color: #174098;
+    font-size: 67px;
+    text-align: center;
+}
+.Attention{
+    overflow:auto;
+    margin: auto;
+}
+
+.album_cover{
+    width:40%;
+}
+
+.albumdesc{
+    font-size: 19px;
+    text-align: left;
+    color:#174098;
+    float: left;
+    margin-left: 17%;
+}
+
+/* merch page */
+.shop{
+    width:100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-40%);
+    text-align: center;
+    color:#174098
+}
+
+.products{
+    margin: 1px 0;
+}
+
+.product_container{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.column{
+    flex-basis: 20%;
+    padding: 10px;
+    min-width: 100px;
+    margin-bottom: 50px;
+}
+
+.column img{
+    width: 100%;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.column img:hover{
+    transform: scale(1.05);
+    opacity:0.8;
+}
+
+.button{
+    width:130px;
+    padding:10px;
+    margin-top:0px;
+    margin-bottom:20px;
+    border-radius:30px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.button:hover{
+    transition:0.3s;
+    transform:scale(1.2);
+    background-color: rgba(255,255,255,0,6);
+    color:black;
+    border: 2px solid black;
 }

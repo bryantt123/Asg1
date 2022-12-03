@@ -4,15 +4,70 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width" />
         <title> ASG1 NewJeans' Website</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav>
-            <a href="index.html" title="Home page"><img src="NewJeans Logo.jpg"></a>
-            <a href="about.html" title="Learn more about NewJeans">About</a>
-            <a href="news.html" title="Upcoming News and Schedules">News</a>
+        <div id="navbar" class="sidenavbar">
+            <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+            <a href="index.html" title="Home page"><img src="NewJeans_Logo_1.svg" width="200" height="60"></a>
             <a href="merch.html" title="Links to buy NewJeans Merch">Merch</a>
-        </nav>
-        <p></p>
+            <a href="discography.html" title="Discography">Discography</a>
+            <a href="about.html" title="Learn more about NewJeans">About</a>
+        </div>
+
+        <div id="openbtn">
+            <button class="openbutton" onclick="openNav()">&#9776;</button>
+        </div>
+
+        <div id="shop">
+            <div class = "products">
+                <div class="product_container">
+                    <h1 class="h1">NewJeans Merchandise</h1>
+                    <div class="row">
+                        <div class="column">
+                            <img src="album random.png">
+                            <p>NewJeans 1st EP 'New Jeans' Bluebook ver. (Random)</p>
+                            <p>SGD$17.46</p>
+                            <button type="button" class="button">
+                                <span class="button_text"><img src="WeverseLogo.png"></span>
+                            </button>
+                        </div>
+                        <div class="column">
+                            <img src="album set.png">
+                            <p>NewJeans 1st EP 'New Jeans' Bluebook ver. (Set)</p>
+                            <p>SGD$104.79</p>
+                            <button type="button" class="button">
+                                <span class="button_text"><img src="WeverseLogo.png"></span>
+                            </button>
+                        </div>
+                        <div class="column">
+                            <img src="album small.png">
+                            <p>NewJeans 1st EP 'New Jeans' Weverse Albums Ver.</p>
+                            <p>SGD$10.12</p>
+                            <button type="button" class="button">
+                                <span class="button_text"><img src="WeverseLogo.png"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </body>
+    <footer>
+        <div class="bottom_page">
+            <div class="social_media_links">
+                <a href="https://twitter.com/NewJeans_ADOR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/newjeans_official/?hl=en" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/c/NewJeans_official" class="fa fa-youtube"></a>
+            </div>
+            <div class="copyrights">
+                <p>@2022 All Rights Reserved to ADOR</p>
+            </div>
+        </div>
+    </footer>
 </html>

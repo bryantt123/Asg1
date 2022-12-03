@@ -4,15 +4,114 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width" />
         <title> ASG1 NewJeans' Website</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav>
-            <a href="index.html" title="Home page"><img src="NewJeans Logo.jpg"></a>
-            <a href="about.html" title="Learn more about NewJeans">About</a>
-            <a href="news.html" title="Upcoming News and Schedules">News</a>
+        <div id="navbar" class="sidenavbar">
+            <a href="javascript:void(0)" class="closebutton" onclick="closeNav()">&times;</a>
+            <a href="index.html" title="Home page"><img src="NewJeans_Logo_1.svg" width="200" height="60"></a>
             <a href="merch.html" title="Links to buy NewJeans Merch">Merch</a>
-        </nav>
-        <p></p>
+            <a href="discography.html" title="Discography">Discography</a>
+            <a href="about.html" title="Learn more about NewJeans">About</a>
+        </div>
+
+        <div id="openbtn">
+            <button class="openbutton" onclick="openNav()">&#9776;</button>
+        </div>
+
+        <div class="about_container">
+            <h1 class="h1">About NewJeans</h1>
+            <p class="about">
+                NewJeans is a South Korean K-Pop girl group formed by ADOR, a company under Hybe Corporation. 
+                They consist of 5 members, Minji, Hanni, Danielle, Haerin, and Hyein. 
+                They debuted on July 22 in 2022, breaking multiple records for K-Pop girl group debuts in South Korea, 
+                mesmorising fans all over the globe for their visuals and music genre.<br><br>
+                NewJeans pre-released their debut single 'Attention' on July 22, 2022, 
+                and their second single 'Hype Boy' on July 23, 2022, before officially debuting August 4, 2022.
+            </p>
+        </div>
+
+        <div class="members_container">
+            <h1 class="h1">Members</h1>
+            <div class="about_member">
+                <img src="Minji 2.png" class="member_image">
+                <h2 class="h2">Minji</h2>
+                <p>Birth Name: Kim Min-ji<br>
+                    Stage Name: Minji<br>
+                    Birthday: May 7, 2004<br>
+                    Height: 169cm<br>
+                    MBTI: ESTJ-T<br>
+                    Nationality: Korean
+                </p>
+            </div>
+        </div>
+        <div class="members_container">
+            <div class="about_member">
+                <img src="Hanni 2.png" class="member_image">
+                <h2 class="h2">Hanni</h2>
+                <p>Birth Name: Phạm Ngọc Hân<br>
+                    Stage Name: Hanni<br>
+                    Birthday: October 6, 2004<br>
+                    Height: 161cm<br>
+                    MBTI: INFP<br>
+                    Nationality: Vietnamese-Australian
+                </p>
+            </div>
+        </div>
+        <div class="members_container">
+            <div class="about_member">
+                <img src="Danielle 2.png" class="member_image">
+                <h2 class="h2">Danielle</h2>
+                <p>Birth Name: Danielle Marsh<br>
+                    Stage Name: Danielle<br>
+                    Birthday: April 11, 2005<br>
+                    Height: 165cm<br>
+                    MBTI: ENFP<br>
+                    Nationality: Korean-Australian
+                </p>
+            </div>
+        </div>
+        <div class="members_container">
+            <div class="about_member">
+                <img src="Haerin 2.png" class="member_image">
+                <h2 class="h2">Haerin</h2>
+                <p>Birth Name: Kang Haerin<br>
+                    Stage Name: Haerin<br>
+                    Birthday: May 15, 2006<br>
+                    Height: 164cm<br>
+                    MBTI: ISTP<br>
+                    Nationality: Korean
+                </p>
+            </div>
+        </div>
+        <div class="members_container">
+            <div class="about_member">
+                <img src="Hyein 2.png" class="member_image">
+                <h2 class="h2">Hyein</h2>
+                <p>Birth Name: Lee Hyein<br>
+                    Stage Name: Hyein<br>
+                    Birthday: April 21, 2008<br>
+                    Height: 170cm<br>
+                    MBTI: INFP<br>
+                    Nationality: Korean
+                </p>
+            </div>
+        </div>
     </body>
+    <footer>
+        <div class="bottom_page">
+            <div class="social_media_links">
+                <a href="https://twitter.com/NewJeans_ADOR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/newjeans_official/?hl=en" class="fa fa-instagram"></a>
+                <a href="https://www.youtube.com/c/NewJeans_official" class="fa fa-youtube"></a>
+            </div>
+            <div class="copyrights">
+                <p>@2022 All Rights Reserved to ADOR</p>
+            </div>
+        </div>
+    </footer>
 </html>
