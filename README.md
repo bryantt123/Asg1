@@ -15,15 +15,24 @@ The website will serve as a platform on enlightening new fans about who NewJeans
   
   >As a fan wanting to contribute to the group's success, I want to know all the different ways to buy their albums so that I can compare which is the cheapest option.
 
-
-
-
 ## Features
 ### Existing Features
+**Main Page** - A quick overview of NewJeans, showcasing their members, latest MV video and Twitter updates as NewJeans updates most frequently on Twitter.
+
+**About Page** - A brief paragraph on NewJeans and who they are. NewJeans are a newly debuted group hence there is not much accolades to include about them. This page also shows the different Members of NewJeans and fun facts about them.
+
+**Discography Page** - This page shows NewJeans current albums. Users can click on the different songs in the album to check out the MV on YouTube.
+
+**Merch Page** - This page includes different albums/merch available for purchase on South Korea's largest K-Pop merchandise shop, Weverse. It shows merch prices in SGD and includes a direct link to the item page in the Weverse online store.
 ### Features left to implement
 
 ## Technologies Used
+HTML, Css and Javascript
 
 ## Testing
-
+NIL
 ## Credits
+NewJeans Logo from Wikipedia.com
+NewJeans' Members pictures from kpop.fandom.com
+Genty font from https://www.dafont.com/genty.font
+MrEasyTutorials on Youtube for the Merch Page
