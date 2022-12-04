@@ -1,11 +1,16 @@
 html{
     background-color:white;
-    font-family: Helvetica;
+    font-family: Futura;
 }
 
 @font-face{
     font-family: Genty;
     src: url(GentyDemo-Regular.otf);
+}
+
+@font-face{
+    font-family: Futura;
+    src: url(futura\ medium\ bt.ttf)
 }
 
 .sidenavbar{
@@ -191,6 +196,7 @@ h3{
 
 .album_cover{
     width:40%;
+    margin-left: 10px;
 }
 
 .albumdesc{
