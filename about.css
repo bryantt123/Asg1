@@ -110,50 +110,28 @@ h3{
     color: black;
 }
 
-/* main page */
-.mainpic{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.centered_name{
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    opacity: 60%;
-}
-
-.group_members{
-    width: 1000px;
-    margin: auto;
-    text-align: center;
-}
-
-.group_members_row{
-    display: flex;
-}
-
-.group_members_row img{
-    border-radius: 5px;
-}
-
-.member_column{
-    flex: 19%;
-    padding: 5px;
-}
-
-.mv_container{
+/* about page */
+.about_container{
     text-align: center;
     margin:auto;
     position: relative;
 }
 
-.twitter_preview{
-    margin-top:20px;
-    position: relative;
-    text-align: center;
+.members_container{
+    overflow: auto;
+    width: 50%;
     margin: auto;
+}
+
+.members_container p{
+    font-size: 19px;
+    text-align: left;
+    color:#174098;
+    float: left;
+    margin-left: 17%;
+}
+
+.member_image{
+    float: left;
+    width: 40%;
 }

@@ -110,50 +110,27 @@ h3{
     color: black;
 }
 
-/* main page */
-.mainpic{
-    position: relative;
+/* discography page */
+.discography_header{
+    font-family: Genty;
+    color: #174098;
+    font-size: 67px;
     text-align: center;
-    color: white;
 }
-
-.centered_name{
-    position: absolute;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    opacity: 60%;
-}
-
-.group_members{
-    width: 1000px;
+.Attention{
+    overflow:auto;
     margin: auto;
-    text-align: center;
 }
 
-.group_members_row{
-    display: flex;
+.album_cover{
+    width:40%;
+    margin-left: 10px;
 }
 
-.group_members_row img{
-    border-radius: 5px;
-}
-
-.member_column{
-    flex: 19%;
-    padding: 5px;
-}
-
-.mv_container{
-    text-align: center;
-    margin:auto;
-    position: relative;
-}
-
-.twitter_preview{
-    margin-top:20px;
-    position: relative;
-    text-align: center;
-    margin: auto;
+.albumdesc{
+    font-size: 19px;
+    text-align: left;
+    color:#174098;
+    float: left;
+    margin-left: 17%;
 }

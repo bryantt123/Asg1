@@ -35,7 +35,7 @@ NIL
 HTML, Css and Javascript
 
 ## Testing
-NIL
+On the Merch page, Users can click on the Weverse Logo button below the item they wish to purchase. Doing so will lead them to the Weverse website, where they will be prompt to sign in or sign up for a Weverse account. After that, they will find the merch product that they wish to buy inside of their Weverse cart.
 
 ## Credits
 Side navigation bar from https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp
