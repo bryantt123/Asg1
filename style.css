@@ -151,6 +151,11 @@ h3{
     position: relative;
 }
 
+.mv_container iframe{
+    width: 685px;
+    height: 400px;
+}
+
 .twitter_preview{
     margin-top:20px;
     position: relative;
